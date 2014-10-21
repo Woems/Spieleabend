@@ -14,5 +14,4 @@
   require("templates/header_menu.php");
   require("templates/body.php");
   require("templates/footer.php");
-  echo "lol";
 ?>
