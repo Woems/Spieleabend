@@ -1,0 +1,383 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"view",
+				"viewfile"
+			],
+			[
+				"filee",
+				"file_exists"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"stye",
+				"style	Tag"
+			],
+			[
+				"sty",
+				"stylesheet"
+			],
+			[
+				"funct",
+				"functionArgs"
+			],
+			[
+				"nr",
+				"nr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/body_teaser.php",
+			"settings":
+			{
+				"buffer_size": 1844,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/woems/.gvfs/web auf w-diskstation/my/SpieleabendV2/templates/body_teaser.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/SpieleabendV2/templates/footer.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/SpieleabendV2/templates/header_login.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/SpieleabendV2/templates/header_menu.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/SpieleabendV2/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/SpieleabendV2/libs/login.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wSpieleabendTest/json.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/SpieleabendV2/index.css",
+		"/home/woems/.gvfs/web auf w-diskstation/my/bootstraptest/index.html",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wSpieleabendTest/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wSpieleabend/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/wGreasemonkey/YouTubeGalerie.html",
+		"/home/woems/.gvfs/web auf w-diskstation/MediaWiki/LocalSettings.php",
+		"/home/woems/.gvfs/web auf w-diskstation/MediaWiki/includes/WebStart.php",
+		"/home/woems/.gvfs/web auf w-diskstation/MediaWiki/index.php",
+		"/home/woems/Downloads/wiki.sql",
+		"/home/woems/.gvfs/web auf w-diskstation/wiki/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/wiki/LocalSettings.php",
+		"/home/woems/.gvfs/web auf w-diskstation/MediaWiki/profileinfo.php",
+		"/home/woems/.gvfs/web auf w-diskstation/MediaWiki/mw-config/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/MediaWiki/mw-config/overrides.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/vote/index.js",
+		"/home/woems/.gvfs/web auf w-diskstation/my/vote/json.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/vote/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/bootstraptest/login.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/gTodo/json.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wMusikPlayer/jPlayerSimplePlaylist.js",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wMusikPlayer/wMusikPlayer.js",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wMusikPlayer/functions.php",
+		"/home/woems/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/woems/.gvfs/web auf w-diskstation/my/vote/index.html",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wMusikPlayer/wMusikPlayer.html",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wMusikPlayer/rss.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wMusikPlayer/index.php",
+		"/home/woems/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/controler/login.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/lib/MVC.php",
+		"/home/woems/.cache/.fr-qwlbCw/index.php",
+		"/home/woems/.cache/.fr-IAj0wX/classes/controller.php",
+		"/home/woems/.cache/.fr-5jUxmS/classes/model.php",
+		"/home/woems/.cache/.fr-AkdD5P/classes/view.php",
+		"/home/woems/.cache/.fr-gVLVdP/index.php",
+		"/home/woems/.cache/.fr-wdmrm8/templates/default.php",
+		"/home/woems/.cache/.fr-EWeTbM/templates/entry.php",
+		"/home/woems/.cache/.fr-Y3UuLw/templates/theblog.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/MVC/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/MVC/templates/default.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/MVC/templates/theblog.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/MVC/classes/view.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/MVC/classes/model.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/MVC/classes/controller.php",
+		"/home/woems/.cache/.fr-tOBdMX/index.php",
+		"/home/woems/.cache/.fr-6U94u6/templates/default.php",
+		"/home/woems/.cache/.fr-KBFrbp/templates/entry.php",
+		"/home/woems/.cache/.fr-rtcfIW/classes/controller.php",
+		"/home/woems/.cache/.fr-8IFcZA/classes/model.php",
+		"/home/woems/.cache/.fr-bEtOui/classes/view.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/view/register.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/index+.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/view/error.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/view/lib/header.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/controler/error.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/view/lib/footer.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/view/lib_header.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/view/footer.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/view/header.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/view/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/view/error_header.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/config.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/inWork/wStarsGame/MVC.php",
+		"/home/woems/.gvfs/web auf w-diskstation/app/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/json.php",
+		"/home/woems/.gvfs/web auf w-diskstation/wMusikPlayer/wMusikPlayer.js",
+		"/home/woems/.gvfs/web auf w-diskstation/wMusikPlayer/functions.php",
+		"/home/woems/.gvfs/web auf w-diskstation/app/phpmyfaq/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/app/phpmyfaq/_httpd.ini",
+		"/home/woems/.gvfs/web auf w-diskstation/app/phpmyfaq/config/constants.php",
+		"/home/woems/.gvfs/web auf w-diskstation/app/phpmyfaq/config/database.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/gTodo/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/gTodo/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/gitweb/gitweb_config.perl",
+		"/home/woems/.gvfs/web auf w-diskstation/gitweb/gitweb.cgi",
+		"/home/woems/.gvfs/web auf w-diskstation/edit/edit.php",
+		"/home/woems/.gvfs/web auf w-diskstation/wMusikPlayer/wMusikPlayer.html",
+		"/home/woems/.gvfs/web auf w-diskstation/wMusikPlayer/json.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/wMusikPlayer/json.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/gTodo/config.php",
+		"/home/woems/.gvfs/web auf w-diskstation/wMusikPlayer/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/app/ampache/config/ampache.cfg.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/bootstraptest/2012-08-06-tipps-für-den-brettspieler.png",
+		"/home/woems/.gvfs/web auf w-diskstation/my/bootstraptest/game.php",
+		"/home/woems/.gvfs/web auf w-diskstation/index.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/bootstraptest/login.js",
+		"/home/woems/.gvfs/web auf w-diskstation/my/bootstraptest/json.php",
+		"/home/woems/.gvfs/web auf w-diskstation/my/bootstraptest/jumbotron.css",
+		"/home/woems/.gvfs/web auf w-diskstation/wMusikPlayer/wMusikPlayer.css",
+		"/home/woems/.gvfs/web auf w-diskstation/wMusikPlayer/jPlayerSimplePlaylist.js",
+		"/home/woems/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/woems/.gvfs/web auf w-diskstation/my/bootstraptest/Collection.JPG",
+		"/home/woems/.gvfs/web auf w-diskstation/my/bootstraptest/bootstrapzero Admin Template/index.html",
+		"/home/woems/.mozilla/firefox/vkuuxfit.default/gm_scripts/cleanup.sh",
+		"/home/woems/.mozilla/firefox/vkuuxfit.default/gm_scripts/Greased_Lightbox/greasedlightbox.user.js",
+		"/home/woems/.mozilla/firefox/vkuuxfit.default/gm_scripts/wurzelimperium_-_giescri/wurzelimperium_-_giescri.user.js",
+		"/home/woems/.mozilla/firefox/vkuuxfit.default/gm_scripts/kinopolis_-_more_info/kinopolis_-_more_info.user.js",
+		"/home/woems/.mozilla/firefox/vkuuxfit.default/gm_scripts/kinopolis_-_keine_werbun/kinopolis_-_keine_werbun.user.js",
+		"/home/woems/.mozilla/firefox/vkuuxfit.default/gm_scripts/kinopolis_-_uebersichtli/kinopolis_-_uebersichtli.user.js",
+		"/home/woems/.mozilla/firefox/vkuuxfit.default/gm_scripts/kinopolis_-_reservierung/kinopolis_-_reservierung.user.js",
+		"/home/woems/.mozilla/firefox/vkuuxfit.default/gm_scripts/Kinkywear/Kinkywear.user.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n?>",
+			"3",
+			"auto",
+			"update",
+			"\n      ",
+			" $",
+			"Update",
+			"navbar",
+			"console.log",
+			"myPlaylistMgr",
+			"navbar",
+			">\n",
+			"\n        ",
+			"h3",
+			"col-xs-2",
+			"col-xs-8",
+			"col-md-4",
+			"col-sm-6",
+			"col-sx-6",
+			"col",
+			"col-sd-6",
+			"git",
+			"lol\n123\n",
+			"Test"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/body_teaser.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Spieleabend.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"key",
+				"~/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap"
+			],
+			[
+				"game",
+				"game.php"
+			],
+			[
+				"jumb",
+				"jumbotron.css"
+			],
+			[
+				"kino",
+				"kinopolis_-_more_info/kinopolis_-_more_info.user.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
