@@ -20,7 +20,7 @@
           <p class="lead">Organisiere deine Brettspiele. Erstelle neue Brettspiele oder füge vorhandene deiner Liste hinzu.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/brettspieleregal.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-rounded g-responsive" src="images/brettspieleregal.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -28,7 +28,7 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/arkham-horror.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-rounded img-responsive" src="images/arkham-horror.jpg" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">Spieleabende verwalten. <span class="text-muted">Von anwesenden Personen bis gespielte Spiele.</span></h2>
