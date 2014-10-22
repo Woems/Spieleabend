@@ -16,5 +16,5 @@ while true; do
       git push
     fi
   fi
-  sleep 60
+  sleep 240
 done
