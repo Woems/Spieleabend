@@ -12,8 +12,8 @@
     <title><?php echo $title; ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/lib/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/lib/bootstrap-3.2.0-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="public/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/bootstrap-3.2.0-dist/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="index.css" rel="stylesheet">
