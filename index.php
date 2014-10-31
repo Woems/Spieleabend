@@ -20,18 +20,18 @@
     if (!isset($_GET["Action"])) $_GET["Action"]="";
     switch ($_GET["Action"]) {
       case 'Profil':
-      $t->add("iam",$user->get());
-  		$t->body("profil");
-  		break;
-  	case 'Inbox':
-  		$t->body("inbox");
-  		break;
-  	case 'Config':
-  		$t->body("config");
-  		break;
-  	default:
-  		$t->body("main");
-  		break;
+        $t->add("iam",$user->get());
+        $t->body("profil");
+        break;
+      case 'Inbox':
+        $t->body("inbox");
+        break;
+      case 'Config':
+        $t->body("config");
+        break;
+      default:
+        $t->body("main");
+        break;
     }
   }
   $t->run();
