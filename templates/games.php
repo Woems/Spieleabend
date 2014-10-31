@@ -8,14 +8,14 @@
       <div class="row">
         <div class="col-md-12">
           <div class="list-group">
-            <? foreach ($usergames as $game): ?>
-            <a class="list-group-item" href="game.php?id=<? echo $game["id"]; ?>">
+            <?php foreach ($usergames as $game): ?>
+            <a class="list-group-item" href="game.php?id=<?=$game["id"]?>">
               <span class="badge"><?=$game["minPlayer"]?> bis <?=$game["maxPlayer"]?> Spieler</span>
               <h4 class="list-group-item-heading"><?=$game["name"]?></h4>
               <p class="list-group-item-text"><?=$game["description"]?></p>
               <p class="list-group-item-text"><?=$game["minPlayer"]?> bis <?=$game["maxPlayer"]?> Spieler</p>
             </a>
-            <? endforeach; ?>
+            <?php endforeach; ?>
           </div>
         </div>
       </div>

@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?php global $title; echo $title; ?>">
+    <meta name="description" content="<?=$title?>">
     <meta name="author" content="Woems">
     <link rel="icon" href="/favicon.ico">
 
-    <title><?php echo $title; ?></title>
+    <title><?=$title?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="public/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -79,7 +79,7 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?   global $user; echo $user->getName(); ?> <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?=$user->getName()?> <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="index.php?Action=Profil"><span class="glyphicon glyphicon-user"></span> Profil</a></li>
                 <li><a href="index.php?Action=Inbox"><span class="glyphicon glyphicon-envelope"></span> Posteingang</a></li>

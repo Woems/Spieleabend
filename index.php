@@ -7,14 +7,15 @@
   require_once("config/config.php");
 
   $user=new Login($db);
-  $title="Spieleabend";
   $t=new Template();
+  $t->add("title", "Spieleabend");
 
   if (!$user->validate())
   {
     $t->header("header_login");
     $t->body("teaser");
   } else {
+    $t->add("user", $user);
     $t->header("header_menu");
     if (!isset($_GET["Action"])) $_GET["Action"]="";
     switch ($_GET["Action"]) {

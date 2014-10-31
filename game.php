@@ -1,14 +1,15 @@
 <?php
   //ini_set('display_errors', true);
   //error_reporting(E_ALL);
-  require_once("libs/login.php");
   require_once("libs/template.php");
-  require_once("libs/game.php");
+  require_once("libs/login.php");
   require_once("config/config.php");
+  require_once("libs/game.php");
 
   $user = new Login($db);
-  $title = "Spieleabend";
   $t = new Template();
+  $t->add("title","Spieleabend");
+  $t->add("user",$user);
   $games = new Game($db);
 
   if (!$user->validate())

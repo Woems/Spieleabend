@@ -1,11 +1,11 @@
-<?
+<?php
   class Game
   {
-  	protected $db = null;
-  	function __construct($pdo_db)
-  	{
-  		$this->db = $pdo_db;
-  	}
+    protected $db = null;
+    function __construct($pdo_db)
+    {
+      $this->db = $pdo_db;
+    }
     function byID($id)
     {
       $ret = $this->db->prepare("SELECT * FROM game WHERE id=? LIMIT 1");
