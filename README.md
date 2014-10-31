@@ -1,5 +1,7 @@
-Spieleabend
-===========
+Spieleabend (noch in der Entwicklung)
+=====================================
+
+Dies ist eine Webseite auf der man seine Spielesammlung verwalten kann. Man kann Spiele anlegen, Spiele zur eigenen Sammlung hinzufügen, Spieleabende organisieren und die Ergebnisse dokumentieren kann.
 
 Installation
 ------------
