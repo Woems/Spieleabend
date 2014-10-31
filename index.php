@@ -1,4 +1,5 @@
 <?php
+  if (!file_exists("config/config.php")) die("Konfigurationsdatei nicht vorhanden");
   //ini_set('display_errors', true);
   //error_reporting(E_ALL);
   require("libs/login.php");

@@ -133,7 +133,7 @@ CREATE TABLE IF NOT EXISTS `have` (
 --
 
 INSERT INTO `have` (`gameId`, `userId`, `count`, `lastplay`, `rate`, `add`, `change`) VALUES
-(1, 1, 1, '2014-05-24', 4, '0000-00-00 00:00:00', '2014-05-24 13:01:54'),
+(1, 1, 1, '2014-05-24', 4, '0000-00-00 00:00:00', '2014-05-24 13:01:54')
 
 -- --------------------------------------------------------
 
@@ -171,7 +171,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`, `admin`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 1),
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 1)
 
 -- --------------------------------------------------------
 

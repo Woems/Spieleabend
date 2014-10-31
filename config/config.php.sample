@@ -1,9 +1,9 @@
 <?php
   $CONFIG=array(
    "DBSERVER" => "localhost",
-   "DBDATABASE" => "wSpieleabend",
-   "DBUSER" => "wSpieleabend",
-   "DBPASSWORD" => "",
+   "DBDATABASE" => "Spieleabend",
+   "DBUSER" => "Spieleabend",
+   "DBPASSWORD" => "Geheim",
   );
-  $db = new PDO('mysql:host='.$CONFIG["DBSERVER"].';dbname='.$CONFIG["DBDATABASE"].';charset=utf8', $CONFIG["DBUSER"], $CONFIG["DBPASSWORD"]);
+  try { $db = new PDO('mysql:host='.$CONFIG["DBSERVER"].';dbname='.$CONFIG["DBDATABASE"].';charset=utf8', $CONFIG["DBUSER"], $CONFIG["DBPASSWORD"]); } catch(Exception $e) { echo "Fehler: ".$e; exit; }
 ?>
