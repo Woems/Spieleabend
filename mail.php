@@ -17,6 +17,18 @@
     $t->header("header_login");
     $t->body("teaser");
   } else {
+    $mail = new Mail($db,$login->getID());
+    echo "SENDE MAIL";
+    //$mail->sendMail($login->getID(), "Testmail", "Dies ist eine Testmail");
+    echo "GESENDET";
+    $tmp = $mail->getMails();
+    $mails = array("inbox"->array(), "send"->array());
+    foreach ($tmp as $row)
+    {
+      if (!isset($mails[$row["folder"]])) $mails[$row["folder"]]=array();
+      aŕray_push($mails[$row["folder"]], $row);
+    }
+    $t->add("mails",$mails);
     $t->header("header_menu");
     $t->body("mail");
   }

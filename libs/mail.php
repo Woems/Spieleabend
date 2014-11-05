@@ -20,7 +20,7 @@
     }
     function getMails()
     {
-      $ret = $this->db->prepare("SELECT * FROM mail WHERE owner=? ORDER BY date");
+      $ret = $this->db->prepare("SELECT * FROM mail WHERE owner=? ORDER BY folder, date");
       $ret->execute(array($this->owner));
       return $ret->fetchAll(PDO::FETCH_ASSOC);
     }
@@ -33,17 +33,17 @@
     function sendMail($to, $subject, $body)
     {
       $from=$this->owner;
-      return array(
-        $this->insertMail($from,"Send",$from, $to, $subject, $body),
-        $this->insertMail($to,"Inbox",$from, $to, $subject, $body)
-      );
+      $this->insertMail($from,"send",$from, $to, $subject, $body);
+      $this->insertMail($to,"inbox",$from, $to, $subject, $body);
+      return true;
     }
     function insertMail($owner, $folder, $from, $to, $subject, $body)
     {
+      echo $owner.$folder.$from.$to.$subject.$body;
       $ret = $this->db->prepare("INSERT INTO mail(id, owner, folder, from, to, subject, body, date)
                                  VALUES (NUL,?,?,?,?,?,?,NOW())");
       $ret->execute(array($owner, $folder, $from, $to, $subject, $body));
-      return $ret->lastInsertId();
+      return true; //$ret->lastInsertId();
     }
   }
 ?>
