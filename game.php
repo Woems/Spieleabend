@@ -1,10 +1,10 @@
 <?php
   //ini_set('display_errors', true);
   //error_reporting(E_ALL);
-  require_once("libs/template.php");
-  require_once("libs/login.php");
+  require_once("libs/libtemplate.php");
+  require_once("libs/liblogin.php");
   require_once("config/config.php");
-  require_once("libs/game.php");
+  require_once("libs/libgame.php");
 
   $user = new Login($db);
   $t = new Template();
