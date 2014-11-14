@@ -82,7 +82,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?=$user->getName()?> <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="index.php?Action=Profil"><span class="glyphicon glyphicon-user"></span> Profil</a></li>
-                <li><a href="index.php?Action=Inbox"><span class="glyphicon glyphicon-envelope"></span> Posteingang</a></li>
+                <li><a href="index.php?Action=Inbox"><span class="glyphicon glyphicon-envelope"></span> Posteingang (<?=$inbox_count?>)</a></li>
                 <li><a href="index.php?Action=Config"><span class="glyphicon glyphicon-cog "></span> Einstellungen</a></li>
                 <li class="divider"></li>
                 <li><a href="?logout"><span class="glyphicon glyphicon-log-out"></span> Abmelden</a></li>

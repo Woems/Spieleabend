@@ -20,9 +20,16 @@
     }
     function getMails()
     {
-      $ret = $this->db->prepare("SELECT * FROM mail WHERE owner=? ORDER BY folder, date");
+      $ret = $this->db->prepare("SELECT *,fu.username AS `fromuser`, tu.username AS `touser` FROM mail, user AS fu, user AS tu WHERE mail.owner=? AND fu.id=mail.`from` AND tu.id=mail.`to` ORDER BY folder, date");
       $ret->execute(array($this->owner));
-      return $ret->fetchAll(PDO::FETCH_ASSOC);
+      $tmp=$ret->fetchAll(PDO::FETCH_ASSOC);
+      $mails = array("inbox"=>array(), "sent"=>array());
+      foreach ($tmp as $row)
+      {
+        if (!isset($mails[$row["folder"]])) $mails[$row["folder"]]=array();
+        $mails[$row["folder"]][]=$row;
+      }
+      return $mails;
     }
     function getMailsByFolder($folder)
     {
@@ -44,6 +51,12 @@
                                  VALUES (NUL,?,?,?,?,?,?,NOW())");
       $ret->execute(array($owner, $folder, $from, $to, $subject, $body));
       return true; //$ret->lastInsertId();
+    }
+    function count($folder)
+    {
+      $ret = $this->db->prepare("SELECT count(*) AS count FROM mail WHERE folder=? AND owner=?");
+      $ret->execute(array($folder, $this->owner));
+      return $ret->fetchAll(PDO::FETCH_ASSOC)[0]["count"];
     }
   }
 ?>

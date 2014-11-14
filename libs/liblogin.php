@@ -23,8 +23,8 @@
     }
     function validateSession()
     {
-      if (!isset($_SESSION['name']) || !isset($_SESSION["passwort"])) return false;
-      $tmp = $this->db($_SESSION['name'], $_SESSION['passwort']);
+      if (!isset($_SESSION['username']) || !isset($_SESSION["passwort"])) return false;
+      $tmp = $this->db($_SESSION['username'], $_SESSION['passwort']);
       if (count($tmp)!=1) return false;
       $this->user=$tmp[0];
       return true;
@@ -34,7 +34,7 @@
       if (!isset($_POST["user"]) || !isset($_POST["passwort"])) return false;
       $tmp = $this->db($_POST["user"], $_POST["passwort"]);
       if (count($tmp)!=1) return false;
-      $_SESSION['name']=$_POST["user"];
+      $_SESSION['username']=$_POST["user"];
       $_SESSION['passwort']=$_POST["passwort"];
       $this->user=$tmp[0];
       return true;
@@ -47,7 +47,7 @@
     }
     function logout()
     {
-      $_SESSION['name']="";
+      $_SESSION['username']="";
       $_SESSION['passwort']="";
       $this->user=null;
       return $this;

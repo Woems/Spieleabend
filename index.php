@@ -17,6 +17,8 @@
     $t->body("teaser");
   } else {
     $t->add("user", $user);
+    $mail = new Mails($db,$user->getID());
+    $t->add("inbox_count",$mail->count("inbox"));
     $t->header("header_menu");
     if (!isset($_GET["Action"])) $_GET["Action"]="";
     switch ($_GET["Action"]) {
@@ -25,16 +27,10 @@
         $t->body("profil");
         break;
       case 'Inbox':
-        $mail = new Mails($db,$user->getID());
+        //$mail = new Mails($db,$user->getID());
         //$mail->sendMail($login->getID(), "Testmail", "Dies ist eine Testmail");
-        $tmp = $mail->getMails();
-        $mails = array("inbox"=>array(), "send"=>array());
-        foreach ($tmp as $row)
-        {
-          if (!isset($mails[$row["folder"]])) $mails[$row["folder"]]=array();
-          aŕray_push($mails[$row["folder"]], $row);
-        }
-        $t->add("mails",$mails);
+        $t->add("pretty",array("inbox" => "Posteingang", "sent"=>"Gesendet"));
+        $t->add("mails",$mail->getMails());
         $t->body("inbox");
         break;
       case 'Config':
