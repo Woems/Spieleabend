@@ -50,6 +50,23 @@
           </form>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Musik <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="http://www.radioseven.org/" target="_blank">RadioSeven</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.di.fm/" target="_blank">di.fm</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.woed.de/" target="_blank">Woed</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.tanzfm.de/web" target="_blank">TanzFM</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.radiotunes.com" target="_blank">Radiotunes (ex Sky.fm)</a></li>
+                <li><a href="http://www.radiotunes.com/popchristmas" target="_blank">RadioTunes - Pop Christmas</a></li>
+                <li><a href="http://www.radiotunes.com/christmas" target="_blank">RadioTunes - Classic Christmas</a></li>
+              </ul>
+            </li>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">bootstrap <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="http://getbootstrap.com/css/" target=bootstrap>CSS</a></li>
